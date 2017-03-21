@@ -1,0 +1,219 @@
+﻿* {
+	font-family: "microsoft yahei";
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	min-width: 426px;
+}
+
+a {
+	text-decoration: none;
+	color: #323A45;
+}
+
+ul,
+li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+.hidden {
+	display: none;
+}
+
+
+/*
+ * 页面头部样式
+ */
+
+#head-menu {
+	position: relative;
+	height: 64px;
+	padding-right: 192px;
+	border-bottom: 1px solid #DDD;
+	background-color: #FFF;
+	z-index: 100;
+}
+
+#pic-coding {
+	height: 100%;
+	float: left;
+}
+
+.coding-logo {
+	width: 175px;
+	height: 100%;
+}
+
+.coding-img {
+	height: 50px;
+	margin: 7px 0;
+}
+
+.nav {
+	float: left;
+	height: 64px;
+	line-height: 64px;
+	margin-left: 40px;
+}
+
+.nav>li {
+	float: left;
+	margin: 0 15px;
+}
+
+.drop-down:hover .function {
+	display: block;
+}
+
+.function {
+	display: none;
+	position: absolute;
+	border: 1px solid #DDD;
+	width: 105px;
+	line-height: normal;
+	top: 50px;
+	left: 19%;
+	margin-left: -50px;
+	background: #FFF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.function>li {
+	height: 100%;
+	padding: 5px 12px;
+	text-align: center;
+}
+
+.function>li:hover {
+	cursor: pointer;
+	background: rgba(0, 0, 0, .03);
+}
+
+.function:before {
+	background-color: #FFF;
+	border-left: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	content: '';
+	position: absolute;
+	top: -5px;
+	left: 43px;
+	width: .6em;
+	height: .6em;
+	-webkit-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	transform: rotate(135deg);
+}
+
+.rightpart {
+	position: absolute;
+	right: 10px;
+	line-height: 64px;
+	height: 64px;
+	font-size: 14px;
+}
+
+.code-mart {
+	height: 100%;
+	display: inline-block;
+	position: relative;
+	float: right;
+	margin-right: 15px;
+}
+
+.code-mart img {
+	height: 50px;
+	margin: 5px 10px 0 0;
+}
+
+.code-mart:hover {
+	background: rgba(0, 0, 0, 0.03);
+}
+
+#split-line {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-top: 22px;
+	height: 21px;
+	border-left: 1px solid #ddd;
+}
+
+#register {
+	margin-right: 5px;
+	color: white;
+	background-color: #323A45;
+}
+
+.button {
+	display: inline-block;
+	height: 2em;
+	border: 1px solid #323a45;
+	padding: 0 2em;
+	line-height: 2em;
+	border-radius: 2em;
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	-ms-border-radius: 2em;
+	-o-border-radius: 2em;
+	text-align: center;
+	overflow: hidden;
+	cursor: pointer;
+	position: relative;
+	top: 10px;
+}
+
+.big-button {
+	width: 100%;
+	background-color: #323A45;
+	color: #fff;
+	font-size: 24px;
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+	border-radius: 24px;
+	padding: 7px 0px;
+	opacity: 0.5;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+
+/*#header {
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	margin: auto;
+	padding: 10px 0;
+	position: absolute;
+	top: 8px;
+	left: 50%;
+}*/
+
+
+/*登录注册*/
+
+.textbox {
+	text-align: left;
+	border: 1px solid #E5E5E5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 12px 15px;
+	margin-bottom: 10px;
+}
+
+.innerbox {
+	font-size: 16px;
+	border: 0;
+	width: 100%;
+	outline: none;
+	color: #323a45;
+}

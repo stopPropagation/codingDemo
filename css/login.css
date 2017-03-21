@@ -1,0 +1,54 @@
+#login {
+	border: 1px solid #E5E5E5!important;
+}
+
+#login-part {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: calc(100% - 65px);
+	height: -moz-calc(100% - 65px);
+	height: -webkit-calc(100% - 65px);
+	background: url(../img/bc.jpg) center center / cover no-repeat fixed;
+}
+
+#login-panel {
+	background: #FFF;
+	text-align: center;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	position: relative;
+	z-index: 100;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 40px 40px;
+	background-color: #fff;
+}
+
+#login-panel>h2 {
+	margin: 0 0 25px 0;
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+	color: #323a45;
+}
+
+.rem-a-for {
+	width: 100%;
+	text-align: left;
+	font-size: 16px;
+	color: #b6b6b6;
+	margin-bottom: 10px;
+}
+
+.rem-a-for>a {
+	color: #b6b6b6;
+	position: absolute;
+	right: 42px;
+}
+
+#login-panel>a {
+	color: #b6b6b6;
+}
